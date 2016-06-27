@@ -1,3 +1,15 @@
+/*********************************************************************************************************
+
+Author: Nyasha Pride Masamba
+Based on the lessons from Codecademy at https://www.codecademy.com/en/skills/make-an-interactive-website
+
+This web app is loosely based on Flipboard's news site, although there is no affiliation whatsoever. The
+exercise of recreating the app was undertaken on the Codecademy site and was strictly for educational
+purposes only. The app features an interactive design with a dropdown menu and a carousel that can be used
+to scroll between sections on the app.
+
+**********************************************************************************************************/
+
 var main = function() {
     $('.dropdown-toggle').click(function() {
         $('.dropdown-menu').toggle();
